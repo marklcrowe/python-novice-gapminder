@@ -323,19 +323,19 @@ print(total)
 > cumulative.append(sum)
 > for number in data:
 > cumulative = []
-> sum += number
-> sum = 0
+> total += number
+> total = 0
 > print(cumulative)
 > data = [1,2,2,5]
 > ~~~
 > {: .language-python}
 > > ## Solution
 > > ~~~
-> > sum = 0
+> > total = 0
 > > data = [1,2,2,5]
 > > cumulative = []
 > > for number in data:
-> >     sum += number
+> >     total += number
 > >     cumulative.append(sum)
 > > print(cumulative)
 > > ~~~
